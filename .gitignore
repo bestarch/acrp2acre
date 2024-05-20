@@ -147,3 +147,4 @@ cython_debug/
 #script output
 *.xlsx
 *.csv
+/.idea
