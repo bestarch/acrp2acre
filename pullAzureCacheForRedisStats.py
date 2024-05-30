@@ -109,6 +109,7 @@ def process_cluster(cluster, mc):
         cluster.name,
         f"{cluster.sku.family}{cluster.sku.capacity}",
         f"{cluster.sku.name}",
+        f"{cluster.location}",
         replicas_per_master,
         cluster_shard_count
     ]
@@ -159,6 +160,7 @@ def main():
                                         "DB Name",
                                         "SKU Capacity",
                                         "SKU Name",
+                                        "Region",
                                         "Replicas per Master",
                                         "Shard Count",
                                         "Shard Number",
